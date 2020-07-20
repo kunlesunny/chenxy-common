@@ -1,4 +1,3 @@
 .idea/
 **/target
-
-chenxy-common.iml
+*.iml
