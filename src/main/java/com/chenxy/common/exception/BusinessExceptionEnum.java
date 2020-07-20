@@ -1,12 +1,11 @@
 package com.chenxy.common.exception;
 
 public enum BusinessExceptionEnum implements CommonException{
-    //通用参数请求错误
+    //错误码不同的开头串可表示不同的服务模块的错误,通用参数请求错误为1开头
     UNKNOWN_ERROR(100000,"未知错误"),
     PARAMETER_VALIDATION_ERROR(100001,"参数不合法"),
 
-
-    //错误码不同的开头串可表示不同的服务模块的错误,假设用户模块为1开头
+    //用户中心模块为1开头
     USER_NOT_EXIST(200001,"用户不存在")
 
     ;
