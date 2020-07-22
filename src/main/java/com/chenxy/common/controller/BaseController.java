@@ -12,9 +12,18 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Controller公共基类
+ * @author chenxy
+ */
 public class BaseController {
 
-
+    /**
+     * 统一异常拦截，针对springboot
+     * @param request
+     * @param exception
+     * @return
+     */
     @ExceptionHandler(Exception.class)
     @ResponseStatus(HttpStatus.OK)
     @ResponseBody

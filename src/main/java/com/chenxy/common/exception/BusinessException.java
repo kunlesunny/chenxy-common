@@ -1,5 +1,9 @@
 package com.chenxy.common.exception;
 
+/**
+ * 公共异常类
+ * @author chenxy
+ */
 public class BusinessException extends Exception implements CommonException{
     private CommonException commonException;
 

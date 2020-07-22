@@ -1,5 +1,9 @@
 package com.chenxy.common.result;
 
+/**
+ * 公共返回类
+ * @author chenxy
+ */
 public class CommonResult {
     /**
      * 代表返回结果的状态 success 和 fail

@@ -1,5 +1,9 @@
 package com.chenxy.common.exception;
 
+/**
+ * 公共异常枚举
+ * @author chenxy
+ */
 public enum BusinessExceptionEnum implements CommonException{
     //错误码不同的开头串可表示不同的服务模块的错误,通用参数请求错误为1开头
     UNKNOWN_ERROR(100000,"未知错误"),
