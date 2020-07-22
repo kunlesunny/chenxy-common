@@ -16,7 +16,7 @@ public class DateUtils {
      */
     public static String getDateByFormat(String format){
         LocalDateTime localDateTime = LocalDateTime.now();
-        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("format");
+        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern(format);
         String date = dateTimeFormatter.format(localDateTime).toString();
         return date;
     }
